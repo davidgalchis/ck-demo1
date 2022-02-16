@@ -32,7 +32,8 @@
             "timeout": 10,
             "policies": ["@tutorial_policy"],
             "environment_variables": {
-                "table_name": "@tutorial_table:props.name"
+                "table_name": "@tutorial_table:props.name",
+                "first_secret": "@first_secret"
             }
         },
         "tutorial_policy": {
@@ -54,6 +55,10 @@
             }
         }
     },
+    "secrets": [
+        "first_secret",
+        "second_secret"
+    ],
     "repos": {
         "reactapp": "https://github.com/cloudkommand/reactapp",
         "apigateway": "https://github.com/cloudkommand/apigateway",
