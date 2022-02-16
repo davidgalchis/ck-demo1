@@ -33,7 +33,7 @@
             "policies": ["@tutorial_policy"],
             "environment_variables": {
                 "table_name": "@tutorial_table:props.name",
-                "first_secret": "@first_secret"
+                "first_secret": "$first_secret"
             }
         },
         "tutorial_policy": {
