@@ -2,7 +2,7 @@
     "components": {
         "tutorialui": {
             "type": "@reactapp.spa",
-            "bundler": "webpack",
+            "bundler": "webpack", 
             "config":{
                 "path":"src/config/config.js",
                 "data": {
