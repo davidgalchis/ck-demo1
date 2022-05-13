@@ -13,9 +13,6 @@
                 }
             }
         },
-        "tutorial_table": {
-            "type": "@dynamodb.table"
-        },
         "tutorial_table_2": {
             "type": "@dynamodb.table"
         },
@@ -35,7 +32,7 @@
             "timeout": 10,
             "policies": ["@tutorial_policy"],
             "environment_variables": {
-                "table_name": "@tutorial_table:props.name",
+                "table_name": "@tutorial_table_2:props.name",
                 "first_secret": "$first_secret"
             }
         },
