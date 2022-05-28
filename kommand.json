@@ -11,7 +11,7 @@
                     "discord_channel_url": "https://discord.com/channels/883179780575477821",
                     "cloudkommand_url": "https://cloudkommand.com"
                 }
-            }
+            }asdf
         },
         "tutorial_table_2": {
             "type": "@dynamodb.table"
