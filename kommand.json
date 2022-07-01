@@ -12,7 +12,7 @@
                     "cloudkommand_url": "https://cloudkommand.com"
                 }
             }
-        },
+        },asdf
         "tutorial_table_2": {
             "type": "@dynamodb.table"
         },
@@ -24,8 +24,7 @@
                     "GET": "@tutorial_lambda:props.arn"
                 }
             },
-            "cors_enabled": true,
-            "something":"@nothing"
+            "cors_enabled": true
         },
         "tutorial_lambda": {
             "type": "@lambda.function",
