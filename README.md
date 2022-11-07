@@ -2,7 +2,7 @@
 
 This repository was loaded into your Github as part of signing up for CloudKommand. Note that no charges are incurred by deploying the configuration defined in this repository or leaving it deployed.
 
-It uses AWS Lambda, DynamoDB, IAM, and API Gateway to create an API that you can hit to increment a counter.
+It uses AWS Lambda, DynamoDB, IAM, and API Gateway to create an API that you can hit to increment a counter.asdf
 
 Use this kommand.json combined with the folder structure to develop your own application, and check out the CloudKommand-managed extensions at:'
 
