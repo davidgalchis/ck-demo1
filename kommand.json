@@ -31,6 +31,7 @@
             "description": "CloudKommand Tutorial Lambda",
             "timeout": 10,
             "policies": ["@tutorial_policy"],
+            "test": "1",
             "environment_variables": {
                 "table_name": "@tutorial_table_2:props.name",
                 "first_secret": "$first_secret"
